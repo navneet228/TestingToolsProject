@@ -1,0 +1,101 @@
+body {
+     background-image: url('./backkk.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    text-align: center;
+   
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: skyblue;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    height: 100px;
+          
+   
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: -70px;
+    margin-left: 10%;
+    padding: 10px;
+    /* border: 1px solid white; */
+
+}
+.navbar ul li{
+    color: white;
+    padding:10px;
+   
+}
+.navbar ul li:hover{
+    background-color: azure;
+    color: black;
+}
+.about{
+    color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    text-align: left;
+}
+.navbar .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 950%;
+    margin-left: -5%;
+    margin: top 1px;
+    max-width: 150px;
+}
+.buttons .button {
+    display: flexbox;
+    padding: 8px 16px;
+    background-color:blue;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.buttons .button:hover {
+    background-color: #0056b3;
+}
+h3{
+    color: black;
+    font-size: 50px;
+     text-align: center;
+     margin-top: -5px;
+}
