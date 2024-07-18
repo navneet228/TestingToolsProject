@@ -1,0 +1,81 @@
+.appointment {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .appointment h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .appointment form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .appointment form div {
+    margin-bottom: 15px;
+  }
+  
+  .appointment form label {
+    font-weight: bold;
+    margin-right: 400px;
+  }
+  
+  .appointment form input[type="text"],
+  .appointment form input[type="email"],
+  .appointment form input[type="tel"]
+ {
+    width: 100%; 
+    margin-right:300px ;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .appointment form input[type="date"],
+  .appointment form input[type="time"]
+ {
+    width: 100%; 
+    margin-right:380px ;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .appointment form textarea {
+    width: 95%; 
+    margin-right:300px ;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .appointment form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .appointment form button[type="submit"] {
+    background-color: #4caf50;
+    height: 50px;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .appointment form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
