@@ -1,0 +1,30 @@
+.home {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 250px;
+    width:fit-content;
+   
+}
+
+.page {
+    height: 400px;
+    width: 450px;
+    margin-top: -35%;
+    margin-left: 105%;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+.sign{
+    font-size: larger;
+    margin-top: -20% ;
+    text-align: center;
+    margin-left: -25%;
+}
+.sin{
+    font-size: larger;
+    margin-top: -4% ;
+    text-align: center;
+    margin-left: 10%;
+    color: blueviolet;
+}
