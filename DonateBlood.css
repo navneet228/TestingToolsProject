@@ -1,0 +1,94 @@
+
+.Container {
+    width: 600px;
+    
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.Container h1 {
+    text-align: center;
+   
+    color: #d9534f; 
+}
+
+
+.form {
+    margin-bottom: 15px;
+    width: 90%;
+    
+}
+
+
+
+
+
+.form label,
+.container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width:90%;
+    text-align: LEFT;
+}
+
+.form select{
+    padding:10px ;
+    width:100%;
+    height: 100%;
+    
+}
+.form input
+ {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.form textarea {
+    width:90%;
+    resize: vertical;
+}
+
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9534f; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #c9302c; 
+}
+select{
+    width:100% ;
+}
+
+
+.success {
+    margin-top: 10%;
+    text-align: center;
+    padding: 20px;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+}
+
+.success p {
+    margin: 10px 0;
+}
