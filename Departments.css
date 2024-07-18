@@ -1,0 +1,78 @@
+.departments {
+    text-align: center;
+    padding: 20px;
+}
+
+.departments ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.department {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.department img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.department p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .department {
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    .department img {
+        width: 100%;
+        height: auto;
+    }
+
+    .department p {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-top: 60px;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .department {
+        display: block;
+        margin: 15px auto;
+        width: 80%;
+    }
+
+    .department img {
+        width: 100%;
+        height: auto;
+    }
+
+    .department p {
+        font-size: 1.1em;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-top: 80px;
+    }
+}
