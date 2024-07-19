@@ -1,0 +1,46 @@
+.payment{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment form {
+    display: grid;
+    gap: 10px;
+}
+
+.payment label {
+    font-weight: bold;
+}
+
+.appointment input,
+.appointment textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.forms .buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forms .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.forms.button:hover {
+    background-color: #0056b3;
+}
